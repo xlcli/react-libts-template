@@ -1,0 +1,19 @@
+// prettier-ignore
+{
+  "include": ["src"],
+  "exclude": ["demo"],
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES2015",
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true, 
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true, 
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true
+  }
+}
